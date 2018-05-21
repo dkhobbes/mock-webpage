@@ -7,7 +7,7 @@ body {
   outline: 1px solid #b8b8b8;
 }
 header, footer {
-  background-color: #f1af38;
+  background-color: #46efe3;
 }
 header img {
   width: 100%;
@@ -74,7 +74,7 @@ h1, h3, p {
   padding: 20px 50px 20px 20px !important;
 }
 .title-yellow {
-  color: #f1af38;
+  color: #46efe3;
 }
 span.read-more.title-yellow {
   cursor: pointer;
@@ -105,7 +105,7 @@ span.read-more.title-yellow.read-open::after {
 
 }
 span {
-  color: #f1af38;
+  color: #46efe3;
 }
 .grid-row {
   display: flex;
@@ -128,7 +128,7 @@ span {
   width: 100%;
   order: 0;
   box-sizing: border-box;
-  background-color: #f1af38;;
+  background-color: #46efe3;;
 }
 .col-60 {
   flex-grow:  0 0 60%;
