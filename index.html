@@ -226,12 +226,7 @@
       $('.read-more, .img-container').on("click",function(e){
         toggleOpen(this);
       });
-      var url = window.location.href;
-      var hash = (url.indexOf("#") > 0 ? url.substring(url.indexOf("#")+1) : null);
-      if(hash){
-        console.log(hash.length);
-        $('span#' + hash).trigger('click');
-      }
+
       function toggleOpen(self) {
         var $eventSection = $(self).closest('.event-section');
         var $readMore = $eventSection.find('.read-more');

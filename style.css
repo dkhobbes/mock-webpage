@@ -8,6 +8,7 @@ body {
 }
 header, footer {
   background-color: #419e98;
+  height: 50px;
 }
 header img {
   width: 100%;
